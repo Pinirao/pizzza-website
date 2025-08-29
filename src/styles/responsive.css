@@ -1,0 +1,57 @@
+@media (max-width: 1200px) {
+    body {
+        font-size: 14px;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pizza-card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer {
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        padding: 10px;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .cart {
+        padding: 15px;
+    }
+
+    .contact-form {
+        flex-direction: column;
+    }
+
+    .checkout-button {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .pizza-card img {
+        width: 100%;
+        height: auto;
+    }
+
+    .navbar a {
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    .footer {
+        font-size: 12px;
+    }
+}
